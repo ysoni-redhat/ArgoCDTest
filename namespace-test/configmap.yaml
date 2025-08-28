@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config
+  namespace: rhdh-argocd-demo
+data:
+  message: "Hello from RHDH + ArgoCD!"
